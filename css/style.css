@@ -1,0 +1,108 @@
+body{
+	background-image:url(../images/bg_pattern.jpg);
+	font-family: "Verdana";
+}
+#site{
+	height:auto;
+	width:634px;
+	margin: 0 auto;
+}
+#hedaer{
+	height:104px;
+	width:634px;
+	background-image:url(../images/bg_banner.jpg);
+}
+
+/* @group Content */
+#content{
+	height:auto;
+	width:544px;
+	background-image:url(../images/bg_letter.jpg);
+	margin-left: 45px;
+}
+/* @group The exercises */
+#user{
+	position:relative;
+	float:left;
+	width:270px;
+	margin-left: 55px;
+}
+.exercise{
+	height:25px;
+	padding-left: 34px;
+	margin-top: 10px;
+	padding-top: 2px;
+}
+.selected{
+	font-weight:bold;
+	background: url(../images/icons/arr2.png) no-repeat center left;
+}
+.correct{
+	background: url(../images/icons/correct2.png) no-repeat;
+}
+.wrong{
+	background: url(../images/icons/wrong2.png) no-repeat;
+}
+/* @end */
+/* @group Admin */
+
+#admin{
+	background-color:#FFFFFF;
+	margin:0px 36px 0px 338px ;
+	opacity:0.36;
+	filter:alpha(opacity=0.36);
+	padding:3px 3px 3px 3px;
+	border: 1px solid rgba(5,57,76,0.8);
+}
+/* @end */
+/* @end */
+/* @group Controls */
+#controls{
+	margin:0px 34px 0px 91px ;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#ok{
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	display : block;
+	direction : rtl;
+}
+.check{
+	background-color:#C2DEFD;
+	border: 1px solid #7DAFC9;
+}
+
+.note{
+	background-color:#FEF58A;
+	border: 1px solid #DDC26A;
+
+}
+
+.result{
+	background-color:#B7FE7D;
+	border: 1px solid #8AB44D;
+}
+/* @end */
+#footer{
+	height:19px;
+	width:544px;
+	background-image:url(../images/bg_bottom.jpg);
+	margin-left: 45px;
+}
+/* @group Misc. */
+.clr{
+	clear: both;
+}
+form,input{
+	display : inline;
+}
+input{
+	height: 20px;
+	width: 95px;
+	font-size:14px;
+	background-color: #FDFBBF;
+	border: 1px dashed #ffbf2d;
+	padding: 3px;
+}
+/* @end */
